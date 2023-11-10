@@ -1,0 +1,72 @@
+ #form_container{
+   display: flex;
+   justify-content: center;
+ 
+}
+form{
+    width: 70%;
+    border: 1px solid rgb(158, 133, 133);
+}
+form input{
+    width: 20%;
+    padding: 10px;
+}
+form button{
+    padding: 10px;
+    background-color: blueviolet;
+    margin-right: 0px;
+}
+
+
+
+/* this one contain about table */
+tr td{
+    text-align: center;
+}
+*{
+    margin: 0px;
+}
+header{
+    border: 1px solid rgb(212, 195, 195);
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+table{
+    background-color: aliceblue;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

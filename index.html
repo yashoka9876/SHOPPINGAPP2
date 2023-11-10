@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shopping App</h1>
+    </header>
+    <div id="form_container">
+        <form id="form">
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="description" id="description">
+            <input type="number" placeholder="prize" id="prize">
+            <input type="number" placeholder="quantity" id="quantity">
+            <button>Add Item</button>
+        </form>
+    </div>
+   <div id="container">
+        <table border="2px">
+            <thead>
+            <tr>
+                <th>name</th>
+                <th>description</th>
+                <th>prize</th>
+                <th>quantity</th>
+                <th>buy</th>
+            </tr>
+            </thead>
+            <tbody id="tbody1">
+                <tr>
+                    <td>ashok</td>
+                    <td>des</td>
+                    <td>23</td>
+                    <td>432</td>
+                    <td>
+                        <button>buy1</button>
+                        <button>buy2</button>
+                        <button>buy3</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>ashok</td>
+                    <td>des</td>
+                    <td>23</td>
+                    <td>432</td>
+                    <td>
+                        <button>buy1</button>
+                        <button>buy2</button>
+                        <button>buy3</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>ashok</td>
+                    <td>des</td>
+                    <td>23</td>
+                    <td>432</td>
+                    <td>
+                        <button>buy1</button>
+                        <button>buy2</button>
+                        <button>buy3</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>
